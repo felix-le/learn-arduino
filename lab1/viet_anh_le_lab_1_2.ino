@@ -8,7 +8,7 @@ int dotTime = 100;
 int dashTime = 1000;
 int offTime = 500;
 
-// Showtime funciton
+// Show one time function
 void showOneTime(int time){
   digitalWrite(LED_BUILTIN, HIGH);
   delay(time); // Wait for time millisecond(s)
