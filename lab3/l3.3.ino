@@ -1,3 +1,7 @@
+
+// Viet Anh Le - Felix
+// COMP 1045 Lab 2
+// January 20 ,2022
 int rotationPin = A0; // potentiometer is connected to analog 0 pin
 int RGBredPin = 9; // 
 int RGBgreenPin =11 ; // 
@@ -23,7 +27,7 @@ void loop() {
 
   // show seven color of rainbow
 
-if ( data =<15){ // if it is more than 10% and less then 15%
+if ( data <=15){ // if it is more than 10% and less then 15%
   // red
   combineThreeLed(RGBredPin, 255, RGBgreenPin, 0, RGBbluePin, 0);
 
